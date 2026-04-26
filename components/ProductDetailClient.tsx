@@ -196,7 +196,7 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
                   productName={product.name}
                   quantity={quantity}
                   price={product.price}
-                  shopPhone="+94751234567"
+                  shopPhone="+94778862111"
                   shopEmail="shop@example.com"
                 />
               </div>
