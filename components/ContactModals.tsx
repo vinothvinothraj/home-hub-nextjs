@@ -119,7 +119,7 @@ export default function ContactModals({ productName, quantity, price, shopPhone,
               {[
                 ['name', 'Full name', 'John Doe', 'text'],
                 ['email', 'Email address', 'john@example.com', 'email'],
-                ['phone', 'Phone number', '+94 75 123 4567', 'tel'],
+                ['phone', 'Phone number', '+94 77 886 2111', 'tel'],
               ].map(([name, label, placeholder, type]) => (
                 <div key={name}>
                   <label className="mb-2 block text-sm font-semibold text-slate-700">{label}</label>

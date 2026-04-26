@@ -62,7 +62,7 @@ export default function Contact() {
               <form onSubmit={handleSubmit} className="mt-6 space-y-4">
                 {[
                   ['name', 'Full name', 'John Doe', 'text'],
-                  ['phone', 'Phone number', '+94 75 123 4567', 'tel'],
+                  ['phone', 'Phone number', '+94 77 886 2111', 'tel'],
                   ['email', 'Email address', 'john@example.com', 'email'],
                 ].map(([name, label, placeholder, type]) => (
                   <div key={name}>
@@ -109,7 +109,7 @@ export default function Contact() {
               <h2 className="text-3xl font-bold text-slate-950">Contact information</h2>
 
               {[
-                [Phone, 'Phone', '+94 75 123 4567', 'Available 9 AM - 6 PM', 'tel:+94751234567', 'brand-gradient', true],
+                [Phone, 'Phone', '+94 77 886 2111', 'Available 9 AM - 6 PM', 'tel:+94751234567', 'brand-gradient', true],
                 [Mail, 'Email', 'shop@example.com', 'We respond within 24 hours', 'mailto:shop@example.com', 'bg-slate-950', true],
                 [MapPin, 'Location', 'Negombo, Sri Lanka', 'Open Monday - Sunday', '', 'bg-lime-600', false],
               ].map(([Icon, title, value, support, href, toneClass, isLink]) => (

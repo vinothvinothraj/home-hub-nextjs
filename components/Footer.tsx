@@ -86,7 +86,7 @@ export default function Footer() {
                 <div>
                   <p className="text-white/45">Phone</p>
                   <a href="tel:+94751234567" className="font-semibold text-white transition hover:text-lime-300">
-                    +94 75 123 4567
+                    +94 77 886 2111
                   </a>
                 </div>
               </li>
